@@ -40,6 +40,7 @@ class PeliculaDetallePage extends StatelessWidget {
         centerTitle: true,
         title: Text(
           pelicula.title,
+          overflow: TextOverflow.ellipsis,
           style: TextStyle(fontSize: 16.0),
         ),
         background: FadeInImage(
