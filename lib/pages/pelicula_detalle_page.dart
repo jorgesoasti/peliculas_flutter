@@ -150,7 +150,7 @@ class PeliculaDetallePage extends StatelessWidget {
             borderRadius: BorderRadius.circular(20.0),
             child: FadeInImage(
               placeholder: AssetImage('assets/img/no-image.jpg'), 
-              height: 170.0,
+              height: 150.0,
               fit: BoxFit.cover,
               image: NetworkImage(actor.getFoto()),
             ),
